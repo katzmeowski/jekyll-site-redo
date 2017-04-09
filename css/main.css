@@ -41,6 +41,29 @@ p {
   color: #333;
 }
 
+code {
+  font-family: 'Consolas', monospace;
+
+}
+
+.highlighter-rouge {
+  width: 100%;
+  padding: .5em 1em;
+  background-color: #494342;
+  color: #81cdc9;
+  border: 1px solid #f8f2f1;
+  border-radius: 6px;
+  font-size: .8em;
+}
+
+p .highlighter-rouge {
+  width: auto;
+  padding: initial;
+  background-color: initial;
+  color: initial;
+  border: none;
+  border-radius: initial;
+}
 
 footer {
   border-top: 1px solid #d5d5d5;
