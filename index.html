@@ -6,3 +6,13 @@ title: Kevin Jablonowski
   <h1>Hey, I'm Kevin!</h1>
   <p>I'm a security analyst and growing web developer working mostly in Rails. Check out some of my work!</p>
 </div>
+<div class="latest-post">
+	<h5>Read my latest blog post</h5>
+	{% assign post = site.posts.first %}
+	{% assign excerpt = post.excerpt %}
+	<h3>
+		<a href="{{ root_url }}{{ post.url }}">{{ post.title }}</a>
+	</h3>
+	<div class="post-content">{{ excerpt }}</div>
+	<a href="{{ root_url}}{{ post.url }}">Read more →</a>
+</div>
