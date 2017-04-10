@@ -1,18 +1,49 @@
 ---
-layout: default
-title: Kevin Jablonowski
 ---
-<div class="intro">
-  <h1>Hey, I'm Kevin!</h1>
-  <p>I'm a security analyst and growing web developer working mostly in Rails. Check out some of my work!</p>
-</div>
-<div class="latest-post">
-	<h5>Read my latest blog post</h5>
-	{% assign post = site.posts.first %}
-	{% assign excerpt = post.excerpt %}
-	<h3>
-		<a href="{{ root_url }}{{ post.url }}">{{ post.title }}</a>
-	</h3>
-	<div class="post-content">{{ excerpt }}</div>
-	<a href="{{ root_url}}{{ post.url }}">Read more →</a>
-</div>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <!--[if lt IE 9]>
+			<script src="/js/html5shiv.js"></script>
+		<![endif]-->
+		<meta name="viewport" content="with=device-width,initial-scale=1">
+		<link href="https://fonts.googleapis.com/css?family=Shrikhand" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="/css/main.css">
+    <title>Kevin Jablonowski</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+      	<a href="/" class="name">Kevin Jablonowski</a>
+        <ul>
+          <li><a href="#">About</a></li>
+          <li><a href="/blog/">Blog</a></li>
+        </ul>
+      </nav>
+			<div class="hero">
+			  <h1>Hey, I'm Kevin.</h1>
+			  <p>I'm a security analyst and growing web developer. I like Ruby on Rails.</p>
+			</div>
+		</header>
+		<div class="container">
+			<div class="latest-post">
+				<h5>Read my latest blog post</h5>
+				{% assign post = site.posts.first %}
+				{% assign excerpt = post.excerpt %}
+				<h3>
+					<a href="{{ root_url }}{{ post.url }}">{{ post.title }}</a>
+				</h3>
+				<div class="post-content">{{ excerpt }}</div>
+				<a href="{{ root_url}}{{ post.url }}">Read more →</a>
+			</div>
+		</div>
+  </body>
+  <footer>
+    <ul>
+      <li><a href="#">email</a></li>
+      <li><a href="https://github.com/katzmeowski">github</a></li>
+      <li><a href="https://www.linkedin.com/in/kjablonowski/">linkedin</a></li>
+    </ul>
+  </footer>
+</html>

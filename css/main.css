@@ -1,25 +1,94 @@
+html {
+  font-size: 62.5%;
+}
+
 * {
   font-family: 'Helvetica', 'Arial', sans-serif;
 }
 
+*, *:before, *:after {
+  margin: 0;
+  box-sizing: border-box;
+}
+
 body {
-  margin: 60px auto;
-  width: 70%;
+  margin: 0;
+}
+
+header {
+  background-color: #494342;
+  background-image: url(../img/hero-bike.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+nav {
+  padding: .8rem;
+  font-size: 1.2rem;
+}
+
+nav .name {
+  font-weight: bold;
+  display: inline;
 }
 
 nav ul, footer ul {
-  padding: 0px;
+  padding: 0;
   list-style: none;
   font-weight: bold;
+  float: right;
+  display: inline;
 }
 
 nav ul li, footer ul li {
   display: inline;
-  margin-right: 20px;
+  margin-right: 2rem;
+}
+
+nav a {
+  color: #ffffff;
+}
+
+nav a:hover {
+  color: #81cdc9;
+}
+
+.hero {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  -ms-transform: translate(0,-50%);
+  -webkit-transform: translate(0,-50%);
+  text-align: center;
+}
+
+.hero h1 {
+  font-family: 'Shrikhand', 'Helvetica'sans-serif;
+  color: #ffffff;
+  text-shadow: .4rem .4rem 0 #6c9a97;
+  font-size: 4rem;
+}
+
+.hero p {
+  color: #ffffff;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: bold;
+  width: 70%;
+  margin: 2rem auto;
 }
 
 .container {
   background-color: #ffffff;
+  margin: 4rem auto;
+  width: 70%;
+}
+
+.latest-post {
+  margin-top: 2rem;
 }
 
 a {
@@ -32,13 +101,13 @@ a:hover {
 }
 
 h1 {
-  font-size: 2em;
+  font-size: 2rem;
 }
 
 p {
-  font-size: 1em;
-  line-height: 1.2em;
-  color: #333;
+  font-size: 1rem;
+  line-height: 1.4rem;
+  color: #494342;
 }
 
 code {
@@ -48,12 +117,12 @@ code {
 
 .highlighter-rouge {
   width: 100%;
-  padding: .5em 1em;
+  padding: .5rem 1rem;
   background-color: #494342;
   color: #81cdc9;
-  border: 1px solid #f8f2f1;
-  border-radius: 6px;
-  font-size: .8em;
+  border: .2rem solid #f8f2f1;
+  border-radius: .6rem;
+  font-size: .8rem;
 }
 
 p .highlighter-rouge {
@@ -66,13 +135,12 @@ p .highlighter-rouge {
 }
 
 footer {
-  border-top: 1px solid #d5d5d5;
-  font-size: .8em;
+  font-size: .8rem;
 }
 
 ul.posts {
-  margin: 20px auto 40px;
-  font-size: 1em;
+  margin: 2rem auto 4rem;
+  font-size: 1rem;
 }
 
 ul.posts li {
