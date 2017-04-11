@@ -169,12 +169,45 @@ p .highlighter-rouge {
 }
 
 footer {
-  font-size: .8rem;
+  width: 100%;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  background: #494342;
+  text-align: center;
+}
+
+footer .wrapper {
+  padding: 4.8rem 0;
+  margin: 0 auto;
+  width: 90%;
+}
+
+footer .social {
+  font-size: 1.6rem;
+}
+
+footer .social a {
+  color: #81cdc9;
+}
+
+footer .social a:hover {
+  color: #bfe0dd;
+}
+
+footer .social a i:last-child {
+  color: #494342;
+}
+
+footer p {
+  color: #ffffff;
+  padding: 2rem 0;
+  margin-bottom: 0;
 }
 
 ul.posts {
   margin: 2rem auto 4rem;
   font-size: 1rem;
+  line-height: 1.5rem;
 }
 
 ul.posts li {
