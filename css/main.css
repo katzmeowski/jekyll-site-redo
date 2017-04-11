@@ -29,7 +29,7 @@ header {
 
 nav {
   padding: .8rem;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 }
 
 nav .name {
@@ -71,22 +71,22 @@ nav a:hover {
   font-family: 'Shrikhand', 'Helvetica', sans-serif;
   color: #ffffff;
   text-shadow: .4rem .4rem 0 #6c9a97;
-  font-size: 4rem;
+  font-size: 3.5rem;
 }
 
 .hero p {
   color: #ffffff;
-  font-size: 1.5rem;
-  line-height: 2rem;
+  font-size: 1.8rem;
+  line-height: 2.7rem;
   font-weight: bold;
   width: 70%;
-  margin: 2rem auto;
+  margin: 4rem auto;
 }
 
 .container {
   background-color: #ffffff;
   margin: 4rem auto;
-  width: 70%;
+  width: 80%;
 }
 
 .card {
@@ -127,11 +127,11 @@ nav a:hover {
 
 a {
   text-decoration: none;
-  color: #d75842;
+  color: #a25042;
 }
 
 a:hover {
-  color: #a25042;
+  color: #d75842;
 }
 
 h1 {
