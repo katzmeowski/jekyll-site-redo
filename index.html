@@ -8,13 +8,14 @@
 			<script src="/js/html5shiv.js"></script>
 		<![endif]-->
 		<meta name="viewport" content="with=device-width,initial-scale=1">
+		<script src="https://use.fontawesome.com/588a23e568.js"></script>
 		<link rel="stylesheet" type="text/css" href="/css/main.css">
     <title>Kevin Jablonowski</title>
   </head>
   <body>
     <header>
       <nav>
-      	<a href="/" class="name">Kevin Jablonowski</a>
+      	<a href="/" class="name"><i class="fa fa-user-secret" aria-hidden="true"></i> Kevin Jablonowski</a>
         <ul>
           <li><a href="/blog/">Blog</a></li>
         </ul>
@@ -33,7 +34,7 @@
 					<a href="{{ root_url }}{{ post.url }}">{{ post.title }}</a>
 				</h3>
 				<div class="post-content">{{ excerpt }}</div>
-				<a href="{{ root_url}}{{ post.url }}">Read more →</a>
+				<a href="{{ root_url}}{{ post.url }}">Read more <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
 			</div>
 		</div>
   </body>
