@@ -134,19 +134,48 @@ a:hover {
   color: #d75842;
 }
 
+/* blog post link styles inspired by Wired.com and adapted from Hyungtak Jun (hjun.me/wired-style-underline/) and Mike Mai (codepen.io/mikemai2awesome/pen/BIEgp?css-preprocessor=scss) */
+.post-content a {
+  color: #494342;
+  border-bottom: .075rem solid #e3a499;
+  box-shadow: 0 -.3rem 0 #e3a499 inset;
+  transition: background .15s cubic-bezier(.33,.66,.66,1);
+}
+
+.post-content a:hover {
+  background: #e3a499;
+}
+
 h1 {
+  font-size: 2.6rem;
+  line-height: 3.9rem;
+}
+
+h3 {
   font-size: 2rem;
+  line-height: 3rem;
 }
 
 p {
-  font-size: 1rem;
-  line-height: 1.4rem;
+  font-size: 1.4rem;
+  line-height: 2.1rem;
   color: #494342;
+}
+
+.post p {
+  margin-top: 1.5rem;
+}
+
+p + p {
+  margin-top: 3.15rem;
+}
+
+.meta {
+  color: #9e9897;
 }
 
 code {
   font-family: 'Consolas', monospace;
-
 }
 
 .highlighter-rouge {
@@ -157,6 +186,7 @@ code {
   border: .2rem solid #f8f2f1;
   border-radius: .6rem;
   font-size: .8rem;
+  line-height: 1.2rem;
 }
 
 p .highlighter-rouge {
