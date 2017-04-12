@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Shrikhand&text=Hey%2C%20I%27mKvin%2E');
-
 html {
   font-size: 62.5%;
 }
@@ -19,12 +17,7 @@ body {
 
 header {
   background-color: #494342;
-  background-image: url(../img/hero-bike.jpg);
-  background-position: center;
-  background-size: cover;
   width: 100%;
-  height: 100vh;
-  position: relative;
 }
 
 nav {
@@ -37,7 +30,7 @@ nav .name {
   display: inline;
 }
 
-nav ul, footer ul {
+nav ul {
   padding: 0;
   list-style: none;
   font-weight: bold;
@@ -45,7 +38,7 @@ nav ul, footer ul {
   display: inline;
 }
 
-nav ul li, footer ul li {
+nav ul li {
   display: inline;
   margin-right: 2rem;
 }
@@ -58,71 +51,10 @@ nav a:hover {
   color: #81cdc9;
 }
 
-.hero {
-  position: absolute;
-  width: 100%;
-  top: 50%;
-  -ms-transform: translate(0,-50%);
-  -webkit-transform: translate(0,-50%);
-  text-align: center;
-}
-
-.hero h1 {
-  font-family: 'Shrikhand', 'Helvetica', sans-serif;
-  color: #ffffff;
-  text-shadow: .4rem .4rem 0 #6c9a97;
-  font-size: 3.5rem;
-}
-
-.hero p {
-  color: #ffffff;
-  font-size: 1.8rem;
-  line-height: 2.7rem;
-  font-weight: bold;
-  width: 70%;
-  margin: 4rem auto;
-}
-
 .container {
   background-color: #ffffff;
   margin: 4rem auto;
   width: 80%;
-}
-
-.card {
-  box-shadow: 0 .4rem .8rem 0 rgba(0,0,0,.2);
-  transition: 0.3s;
-  margin: 2.5rem auto;
-}
-
-.card:hover {
-  box-shadow: 0 .8rem 1.6rem 0 rgba(0,0,0,.2);
-}
-
-.card img {
-  width: 100%;
-}
-
-.card-text {
-  padding: .8rem 1.6rem;
-}
-
-.card-title {
-  font-size: 1.8rem;
-  line-height: 2.7rem;
-}
-
-.card-content {
-  font-size: 1.4rem;
-  line-height: 2.1rem;
-}
-
-.card-content p {
-  margin-bottom: 1.5rem;
-}
-
-.latest-post {
-  margin-top: 2rem;
 }
 
 a {
@@ -146,6 +78,19 @@ a:hover {
   background: #e3a499;
 }
 
+.post-content p {
+  margin-top: 1.5rem;
+}
+
+.post-content h1,
+.post-content h2,
+.post-content h3,
+.post-content h4,
+.post-content h5,
+.post-content h6 {
+  margin-top: 2.5rem;
+}
+
 h1 {
   font-size: 2.6rem;
   line-height: 3.9rem;
@@ -162,10 +107,6 @@ p {
   color: #494342;
 }
 
-.post p {
-  margin-top: 1.5rem;
-}
-
 p + p {
   margin-top: 3.15rem;
 }
@@ -174,22 +115,23 @@ p + p {
   color: #9e9897;
 }
 
-code {
-  font-family: 'Consolas', monospace;
-}
-
-.highlighter-rouge {
+pre {
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  overflow-x: auto;
   width: 100%;
-  padding: .5rem 1rem;
+  padding: 1rem 1.5rem;
   background-color: #494342;
   color: #81cdc9;
   border: .2rem solid #f8f2f1;
   border-radius: .6rem;
-  font-size: .8rem;
-  line-height: 1.2rem;
 }
 
-p .highlighter-rouge {
+code {
+  font-family: 'Consolas', monospace;
+}
+
+p pre {
   width: auto;
   padding: initial;
   background-color: initial;
