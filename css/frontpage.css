@@ -11,9 +11,9 @@ header {
 .hero {
   position: absolute;
   width: 100%;
-  top: 50%;
-  -ms-transform: translate(0,-50%);
-  -webkit-transform: translate(0,-50%);
+  top: 60%;
+  -ms-transform: translate(0,-60%);
+  -webkit-transform: translate(0,-60%);
   text-align: center;
 }
 
@@ -83,6 +83,16 @@ header {
 }
 
 @media (min-width: 500px) {
+  .hero h1 {
+    text-shadow: .4rem .4rem 0 #6c9a97;
+    font-size: 5.5rem;
+  }
+
+  .hero p {
+    font-size: 2.2rem;
+    line-height: 3.3rem;
+  }
+
   .portfolio {
     -webkit-flex-direction: row;
     flex-direction: row;

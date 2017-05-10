@@ -185,3 +185,10 @@ ul.posts {
 ul.posts li {
   list-style: none;
 }
+
+@media (min-width: 500px) {
+  nav {
+    padding: .8rem;
+    font-size: 1.8rem;
+  }
+}
