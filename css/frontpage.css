@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Shrikhand&text=Hey%2C%20I%27mKvin%2E');
 
 header {
-  background-image: url(https://images.unsplash.com/photo-1485965120184-e220f721d03e?dpr=2&auto=format&w=1200&h=800&cs=tinysrgb);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(https://images.unsplash.com/photo-1485965120184-e220f721d03e?dpr=2&auto=format&w=1200&h=800&cs=tinysrgb);
   background-position: center;
   background-size: cover;
   height: 100vh;
