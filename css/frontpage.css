@@ -6,6 +6,11 @@ header {
   background-size: cover;
   height: 100vh;
   position: relative;
+  border-bottom: none;
+}
+
+nav a {
+  color: #ffffff;
 }
 
 .hero {
