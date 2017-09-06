@@ -108,6 +108,11 @@ h3 {
   line-height: 3rem;
 }
 
+h5 {
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+}
+
 p {
   font-size: 1.4rem;
   line-height: 2.1rem;
@@ -128,6 +133,7 @@ pre {
   overflow-x: auto;
   width: 100%;
   padding: 1rem 1.5rem;
+  margin-top: 1rem;
   background-color: #494342;
   color: #81cdc9;
   border: .2rem solid #f8f2f1;
